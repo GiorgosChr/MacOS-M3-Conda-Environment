@@ -19,6 +19,7 @@ dependencies:
   - hepunits
   - iminuit
   - seaborn
+  - uproot
   - pip:
       - h5py
       - keras
