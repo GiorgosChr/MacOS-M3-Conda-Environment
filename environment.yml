@@ -21,6 +21,7 @@ dependencies:
   - seaborn
   - uproot
   - root
+  - pyhf
   - pip:
       - h5py
       - keras
