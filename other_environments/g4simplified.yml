@@ -1,0 +1,43 @@
+name: macos-g4
+channels:
+  - conda-forge
+  - defaults
+  - pytorch-nightly
+dependencies:
+  - ipykernel
+  - ipython
+  - jupyter_client
+  - jupyter_core
+  - libcxx
+  - matplotlib
+  - pip=23.3.1=py311hca03da5_0
+  - python=3.11.8
+  - pytorch
+  - torchvision
+  - torchaudio
+  - hepstats
+  - hepunits
+  - iminuit
+  - seaborn
+  - uproot
+  - root
+  - pyhf
+  - pip:
+      - h5py
+      - keras
+      - libclang==18.1.1
+      - numpy
+      - pandas
+      - scikit-learn
+      - scipy
+      - tensorboard==2.16.2
+      - tensorboard-data-server==0.7.2
+      - tensorflow==2.16.1
+      - tensorflow-io-gcs-filesystem==0.36.0
+      - tensorflow-metal==1.1.0
+      - pylorentz
+      - scienceplots
+      - mplhep
+      - particle
+      - boost-histogram
+      - pygeosimplify
