@@ -1,0 +1,38 @@
+name: hep
+channels:
+  - conda-forge
+  - defaults
+  - pytorch-nightly
+dependencies:
+  - ipykernel
+  - ipython
+  - jupyter_client
+  - jupyter_core
+  - libcxx
+  - matplotlib
+  - pip
+  - python=3.12
+  - pytorch
+  - torchvision
+  - torchaudio
+  - hepstats
+  - hepunits
+  - iminuit
+  - seaborn
+  - uproot
+  - root
+  - pyhf
+  - pip:
+      - h5py
+      - keras
+      - libclang
+      - numpy
+      - pandas
+      - scikit-learn
+      - scipy
+      - tensorflow==2.16.1
+      - pylorentz
+      - scienceplots
+      - mplhep
+      - particle
+      - boost-histogram
