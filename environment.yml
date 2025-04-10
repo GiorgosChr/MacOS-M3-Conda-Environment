@@ -36,9 +36,10 @@ dependencies:
       - tensorflow
       - tensorflow-io-gcs-filesystem
       - tensorflow-metal
+      - tensorflow-macos
       - pylorentz
       - scienceplots
       - mplhep
       - particle
       - boost-histogram
-      -pydot
+      - pydot
