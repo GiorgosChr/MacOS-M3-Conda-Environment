@@ -27,7 +27,7 @@ dependencies:
       - h5py
       - keras
       - libclang==18.1.1
-      - numpy
+      - numpy<2.0
       - pandas
       - scikit-learn
       - scipy
